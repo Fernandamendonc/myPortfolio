@@ -13,7 +13,7 @@ export default function Header() {
     setIsOpenModalContact(!isOpenModalContact)
   }
   return (
-    <Container>
+    <Container className="max-width-global">
       <CircleLogo>
         <Logo>
           <img src={logoFImg} alt="Logo" width={'16px'} />

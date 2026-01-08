@@ -13,9 +13,9 @@ interface TechnologiesPropos {
 
 export default function HardSkills({ technology }: TechnologiesPropos) {
   return (
-    <Container>
+    <Container className="max-width-global">
       <ContainerTechnologies colorBg={technology.colorBg}>
-        <img src={technology.icon} alt="" width={25} height={25} />
+        <img src={technology.icon} alt="" width={20} height={20} />
       </ContainerTechnologies>
       <ContentTecnologies>
         <p>{technology.title}</p>

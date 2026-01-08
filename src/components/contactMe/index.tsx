@@ -25,7 +25,7 @@ export default function ContactMe() {
   }
 
   return (
-    <Container>
+    <Container className="max-width-global">
       <SummaryInformation>
         {summaryInformation.map((summaryInformation) => {
           return (

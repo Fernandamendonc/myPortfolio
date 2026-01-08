@@ -9,21 +9,21 @@ export const technologies: TechnologiesTypes[] = [
     id: '1',
     icon: '/src/assets/ic_typescript.svg',
     title: 'TypeScript',
-    timeExperience: currentYear - 2022 + 1,
+    timeExperience: currentYear - 2024 + 1,
   },
   {
     colorBg: '#FFF848',
     id: '2',
     icon: '/src/assets/ic_javascript.svg',
     title: 'JavaScript',
-    timeExperience: currentYear - 2022 + 1,
+    timeExperience: currentYear - 2023 + 1,
   },
   {
     colorBg: '#48D3FF',
     id: '3',
     icon: '/src/assets/ic_react.svg',
     title: 'React',
-    timeExperience: currentYear - 2022 + 1,
+    timeExperience: currentYear - 2024 + 1,
   },
   {
     colorBg: '#494949',
@@ -37,7 +37,7 @@ export const technologies: TechnologiesTypes[] = [
     id: '5',
     icon: '/src/assets/ic_figma.svg',
     title: 'Figma',
-    timeExperience: currentYear - 2022 + 1,
+    timeExperience: currentYear - 2023 + 1,
   },
   {
     colorBg: '#FFF848',
@@ -51,6 +51,6 @@ export const technologies: TechnologiesTypes[] = [
     id: '7',
     icon: '/src/assets/ic_node.svg',
     title: 'Node',
-    timeExperience: currentYear - 2022 + 1,
+    timeExperience: currentYear - 2025 + 1,
   },
 ]

@@ -19,5 +19,8 @@ export const Header = styled.div`
   align-items: center;
 
   margin-bottom: 50px;
-  padding: 0px 100px;
+
+  p {
+    width: 100%;
+  }
 `

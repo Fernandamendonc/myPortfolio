@@ -20,7 +20,7 @@ function App() {
       <Wrapper>
         <WorkExperienceTimeline />
 
-        <ContainerHardSkills>
+        <ContainerHardSkills className="max-width-global">
           {technologies.map((technology) => {
             return (
               <HardSkills

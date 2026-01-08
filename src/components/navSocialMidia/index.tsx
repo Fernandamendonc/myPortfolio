@@ -10,7 +10,11 @@ export default function NavSocialMidia() {
         <li>
           <ButtonContactPortfolio>
             <img src={icLinkedinImg} alt="Icon LinkedIn" width={'16px'} />
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/fernanda-mendon%C3%A7a-6012a71b2/"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </ButtonContactPortfolio>

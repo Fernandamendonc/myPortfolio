@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-top: 130px;
+  width: 100%;
 `
 export const SummaryInformation = styled.div`
   display: flex;

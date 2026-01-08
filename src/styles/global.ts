@@ -7,6 +7,10 @@ import 'swiper/css/scrollbar'
 
 export const GlobalStyle = createGlobalStyle`
 
+.max-width-global {
+  max-width: 1300px;
+}
+
 .react-modal-overlay {
     position: fixed;
     top: 0;
@@ -95,13 +99,6 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-/*button:hover {
-  border-color: var(--purple-20);
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}*/
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -117,16 +114,18 @@ button:focus-visible {
 }
 
 `
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-`
+export const Container = styled.div``
 
 export const Wrapper = styled.div`
   padding: 0px 72px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `
 export const ContainerHardSkills = styled.div`
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 `

@@ -5,7 +5,7 @@ import { Container } from './styles'
 
 export default function ExperienceWork() {
   return (
-    <Container>
+    <Container className="max-width-global">
       <Title title="Experiencia" />
 
       {experiences.map((experience) => {

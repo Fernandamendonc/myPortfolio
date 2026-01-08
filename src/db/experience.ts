@@ -11,6 +11,29 @@ export const experiences: ExperienceType[] = [
   {
     id: 0,
     title: 'Santander',
+    office: 'Especialista I Transformação & CX',
+    description: [
+      {
+        titleDescription:
+          'Criação de aplicativos com PowerApps e automações com Power Automate, reduzindo o tempo de execução de tarefas operacionais.',
+      },
+      {
+        titleDescription:
+          'Validação, tratamento e transformação de bases de dados em Excel em listas estruturadas para uso nos aplicativos.',
+      },
+      {
+        titleDescription:
+          'Suporte técnico e funcional para manutenção e evolução de aplicativos voltados ao público interno.',
+      },
+    ],
+    date: 'Outubro, 2024',
+    link: 'https://www.santander.com.br/',
+    currentlyActive: '#69CC58',
+    color: '#E40000',
+  },
+  {
+    id: 1,
+    title: 'Santander',
     office: 'Estágio CX',
     description: [
       {
@@ -25,13 +48,13 @@ export const experiences: ExperienceType[] = [
           'Implementação de ferramentas de boas práticas no código (ESlint, Prettier).',
       },
     ],
-    date: 'Maio, 2023',
+    date: 'Maio, 2023 | Setembro, 2024',
     link: 'https://www.santander.com.br/',
-    currentlyActive: '#69CC58',
+    currentlyActive: '#5D5D5D',
     color: '#E40000',
   },
   {
-    id: 1,
+    id: 0,
     title: 'Bless Processamento de Dados',
     office: 'Estágio de Desenvolvimento',
     description: [
@@ -58,13 +81,13 @@ export const summaryInformation: SummaryInformationType[] = [
   {
     id: 0,
     title: 'Projetos',
-    value: 20,
+    value: 3,
     plus: '',
   },
   {
     id: 1,
     title: 'Tecnologias',
-    value: 5,
+    value: 7,
     plus: '',
   },
   {
@@ -76,7 +99,7 @@ export const summaryInformation: SummaryInformationType[] = [
   {
     id: 3,
     title: 'Experiência de trabalho',
-    value: 2,
+    value: 1,
     plus: '+',
   },
 ]

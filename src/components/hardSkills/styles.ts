@@ -6,15 +6,16 @@ interface TechnologiesPropos {
 
 export const Container = styled.div`
   border: 1px solid #45404a;
+
   border-radius: 5px;
 
   background-color: #312d35;
 
   display: flex;
   justify-content: start;
-  gap: 20px;
-  padding: 12px;
-  min-width: 150px;
+  gap: 5px;
+  padding: 10px;
+  width: 123px;
 `
 export const ContainerTechnologies = styled.div<TechnologiesPropos>`
   background-color: ${(propos) => propos.colorBg};
@@ -22,8 +23,8 @@ export const ContainerTechnologies = styled.div<TechnologiesPropos>`
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
 `
 
 export const ContentTecnologies = styled.div`

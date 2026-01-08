@@ -1,17 +1,11 @@
-import {
-  Container,
-  Introducao,
-  ButtonProjetos,
-  TextoNome,
-  TextoSobrenome,
-} from './styles'
+import { Container, Introducao, TextoNome, TextoSobrenome } from './styles'
 
 import icChaveAbertaImg from '../../assets/ic_chave_aberta.svg'
 import icChaveFechadaImg from '../../assets/ic_chave_fechada.svg'
 
 export default function Introduction() {
   return (
-    <Container>
+    <Container className="max-width-global">
       <Introducao>
         <img src={icChaveAbertaImg} alt="chave aberta" width={'5px'} />
 
@@ -21,7 +15,7 @@ export default function Introduction() {
 
         <img src={icChaveFechadaImg} alt="chave fechada" width={'5px'} />
 
-        <ButtonProjetos>Veja meus projetos</ButtonProjetos>
+        {/* <ButtonProjetos>Veja meus projetos</ButtonProjetos> */}
       </Introducao>
 
       <span>

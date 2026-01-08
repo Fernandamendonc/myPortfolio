@@ -5,7 +5,7 @@ export const personalProjects: PersonalProjectsType[] = [
     id: 0,
     title: 'DTMONEY',
     description:
-      'Essa aplicação tem o propósito de ajudar o usuário a ter o contole de suas finanças, cadastrando suas despesas e receitas. Os dados são salvos utilizando uma api fake, feita com o MirageJs.',
+      'Aplicação de controle financeiro com funcionalidades de cadastro de receitas e despesas. Utiliza MirageJS para simular uma API REST, permitindo o consumo e manipulação de dados como em um ambiente real de produção.',
     img: '/src/assets/img_dtmoney.svg',
     colorBorder: '#8F01C2',
   },
@@ -13,24 +13,16 @@ export const personalProjects: PersonalProjectsType[] = [
     id: 1,
     title: 'API RICK AND MORTY',
     description:
-      'Essa aplicação tem o propósito de ajudar o usuário a ter o contole de suas finanças, cadastrando suas despesas e receitas. Os dados são salvos utilizando uma api fake, feita com o MirageJs.',
-    img: '/src/assets/img_api_rick_morty.svg',
+      'Integração com API pública do Rick and Morty para exibição dinâmica de informações dos personagens, incluindo nome, espécie, status e localizações, com foco em experiência do usuário e manipulação de dados via JavaScript/React.',
+    img: '/src/assets/image 3.svg',
     colorBorder: '#69CC58',
   },
   {
     id: 2,
     title: 'MY TO DO LIST',
     description:
-      'Essa aplicação tem o suas despesas e receitas. Os dados são salvos utilizando uma api fake, feita com o MirageJs.',
-    img: '/src/assets/img_api_rick_morty.svg',
-    colorBorder: '#0500FF',
-  },
-  {
-    id: 3,
-    title: 'MY TO DO LIST',
-    description:
-      'Essa aplicação tem o suas despesas e receitas. Os dados são salvos utilizando uma api fake, feita com o MirageJs.',
-    img: '/src/assets/img_api_rick_morty.svg',
+      'My To Do List é uma aplicação simples de gerenciamento de tarefas, desenvolvida para praticar a integração entre front-end e back-end, consumo de API REST com Node.js e persistência de dados no Firebase, com foco em organização e boas práticas de desenvolvimento.',
+    img: '/src/assets/image 17.svg',
     colorBorder: '#0500FF',
   },
 ]
