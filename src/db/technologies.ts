@@ -1,4 +1,4 @@
-import { TechnologiesTypes } from '../components/buttonApps'
+import { TechnologiesTypes } from '../components/hardSkills'
 
 const date = new Date()
 const currentYear = date.getFullYear()
